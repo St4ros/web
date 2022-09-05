@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+#index.css
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*******cabesera*/
+head{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#menu #menusub .botones{
+    border: 10px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+
+#menu{
+    background-color: #11A6BF;
+    height: 100px;  
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+#menusub{
+    float: right;
+    margin: 30px 10px 0 0;
+}
+#subsub{
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+#imgconfam{
+    float: left;
+    max-width: 300px;
+    max-height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imgsub{
+    float: right;
+    max-width: 100px;
+    max-height: 100;
+    display: flex;
+}
+/* contenido Buscador */
+#barraBusqueda{
+    position: absolute;
+    left: 42%;
+    bottom: 40px;
+}
+#lupa{
+    height: 20px;
+    width: 25px;
+    position: absolute;
+    left: 40%;
+    bottom: 40px;
+}
+
+#ContenedorCajaDeBusqueda input{
+    display: block;
+    margin: auto;    
+}
+#caja-de-busqueda{
+    position: fixed;
+    top: 156px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    background-color: aliceblue;
+    z-index: 8;
+    list-style: none;
+}
+/* */
+/****** Final de la cabesera*/
+
+/****** Lista menu con imagenes */
+#lista-menu-centrado{
+    text-align: center;
+}
+#lista-menu{
+    display:inline-block;
+}
+#imgm{
+    width: 50px;
+    height: 50px;
+    margin: 10px 20px 0 0;
+   
+}
+
+#salud{
+    border: 10px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/****** fin Menu con imagenes */
+
+/****** contenido del carrucel de imagenes */
+#contemItemsCarrusel{
+    border: 10px solid rgb(255, 255, 255);
+    height: 200px;
+    overflow: hidden;
+}
+.itemcarrusel{
+    border: 1px solid rgb(255, 255, 255);
+    height: 200px;
+    position: relative;
+}
+.targetacarrusel{
+    height: 100%;
+}
+.fechacarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#tc1{
+   
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    float: right;
+    
+
+}
+a{
+    text-decoration: none;
+}
+img{
+    
+    height: 200px;
+    width: 100%;
+    position: relative;
+  
+  
+}
+/* puntos del carrucel de imagenes */
+#imgp{
+    height: 20px;
+    width: 20px;
+    max-width: 100%;
+    float: left;
+    left: 95%;
+    bottom: 200px;
+}
+/****** final contenido del carrucel de imagenes */
+
+/****** Titulo paguina */
+#titmt{
+    position: relative;
+    left: 43%;
+    list-style: none;
+}
+#imgmt{
+    float: left;
+    width: 50px;
+    height: 50px;
+    left: 43%;
+}
+/****** fin titulo paguina*/
+
+/****** menu lado izquierdo*/
+#menu-navegacion{
+    background-color: #11A6BF;
+    height: 1055px;
+    width: 24%;
+    float: left;
+    margin: 0 0 0 1%;
+    
+    position: relative;
+    font-size: 18px;
+}
+#lista-menu-navegacion{
+    list-style: none;
+    line-height: 50px;
+    margin: 0 8px;
+}
+#dif{
+    line-height: 20px;
+}
+/****** final menu lado izquierdo*/
+
+/****** menu lado derecho*/
+#menu-navegacion-derecho{
+    
+    position: relative;
+    background-color: #32cd32;
+    height: 520px;
+    width: 73%;
+    float: right;
+    margin: 0 0.5% 0 0;
+  
+    font-family: Arial;
+}
+
+#titulo1{
+    list-style: none;
+    margin: 30px 0 0 50px;
+    color:rgb(65, 65, 65);
+}
+
+#descripcion{
+    list-style: none;
+    margin: 4px 0 0 50px;
+    color:rgb(118, 118, 118);
+}
+
+h2{
+    color:rgb(65, 65, 65);
+}
+h1{
+    color:rgb(65, 65, 65);
+}
+
+#pu1{
+    float: left;
+    width: 50%;
+    height: 320px;
+    margin: 0 0 0 50px;
+    border-radius: 10PX;
+   
+}
+
+#descripcionPrecio{
+    position: relative;
+    width: 40%;
+    margin: 0 0 0 58%;
+}
+
+#tituloprecio{ 
+    line-height: 0px;
+}
+
+#tituloprecioafiliado{ 
+    line-height: 0px;
+}
+
+#gm1{
+    float: left;
+    
+    height: 50px;
+    width: 100px;
+    margin: 0 0 0 60px;
+    border-radius: 15px;
+}
+
+/****** final menu lado derecho*/
+
+/****** estrellas */
+.ec-stars-wrapper{  
+	font-size: 0;
+	display: inline-block;
+    position:absolute;
+    left: 50px;
+    bottom: 40px;
+}
+.ec-stars-wrapper a {   
+	text-decoration: none;
+	display: inline-block;
+	/* Volver a dar tamaño al texto */
+	font-size: 32px;
+	font-size: 2rem;
+	
+	color: #888;
+}
+#estrellas{
+    color: rgb(39, 130, 228);
+}
+.ec-stars-wrapper:hover a {
+	color: rgb(39, 130, 228);
+}
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+    
+}

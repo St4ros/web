@@ -1,0 +1,73 @@
+:root {
+    --color-dark: #11A6BF;
+}
+        body{
+            background-color: #11A6BF;
+            font-family: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap';
+        }
+        .layout{
+            width: 600px;
+            margin: auto;
+        }
+        .accordion{
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background: rgb(25, 104, 133);
+            border-radius: 10px;
+        }
+        .accordion__question p{
+            margin: 5px;
+            padding: 0;
+            font-family: Verdana;
+            font-size: 20px;
+            color: rgb(207, 215, 223);
+        }
+        .accordion__answer p{
+            margin: 5px;
+            padding: 10px;
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(207, 215, 223);
+            background: rgb(77, 119, 149);
+            border-radius: 10px; 
+           
+        }
+        .accordion:hover{
+            cursor: pointer;
+        }
+        .accordion__answer {
+            display: none;
+        } 
+        .accordion.active .accordion__answer {
+            display: block;
+        }
+       .boton1{
+       
+        background-color: rgb(77, 119, 149);
+        color: aliceblue;
+        height: 40px;
+        width: 332px;
+        border-radius: 10px;
+        font-size: 15px;
+        
+
+       }
+       .text1{
+        font-family: Verdana;
+        font-size: 15px;
+        color: aliceblue;
+       }
+       .imagen{
+          background-image: url("img/img.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: 450px;
+          height: 600px;
+          position: absolute;
+          top: 70px;
+          left: 5px;
+          border-radius: 10px;
+       }
+      
+       

@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #32cd32;
+    
+}
+
+
+
+/* Encabezado*/
+.container{
+    width: 100%;
+    max-width: auto;
+    overflow: hidden;
+}
+
+.hero__container{
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.logo__picture{
+    max-width: 200px;
+    
+}
+
+.logo__img{
+    width: 100%;
+}
+
+.hero__container > .logo__picture{
+    justify-self: end;
+}
+
+.hero__container > .pago__text{
+    max-height: 200px;
+}
+
+.titulo__pago{
+    color: black;
+}
+
+.texto__encabezado{
+    color: black;
+}
+
+/*pagina de pago exitoso*/
+
+.container__main2{
+    background-color: #11b9bf;
+    display: flex;
+    grid-template-columns: auto 200px;
+    margin: 0 auto;
+    width: 1200px;
+    height: 450px;
+    
+}
+
+.container__pago2 {
+    margin: 2px 2px;
+    background-color:#11A6BF ;
+    border-radius: 4px;
+    display: grid;
+    grid-template-areas: 
+    "."
+    "."
+    "sep3"
+    "imglst"
+    "ty"
+    "txt"
+    "btnlst";
+
+}
+
+/*caja de pago*/
+
+.container__main{
+    background-color: #11bfb0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 800px auto;
+    margin: 0px auto;
+    width: 1200px;
+    height: 400px;
+}
+
+.container__pago{
+    margin: 2px 2px;
+    background-color: #11A6BF  ;
+    border-radius: 4px;
+    display: grid;
+    padding: 1rem;
+    grid-template-areas: 
+    "CP SP . ."
+    "sep sep sep sep"
+    "numCrd TxtNC . ."
+    "nom txnom . ."
+    "fh phfh cod phcod"
+    "tipocc numcc . ."
+    "stcc phcc . ."
+    "tpa af . ."
+    "vlr prc . ."
+    ". . . btn";
+}
+/*objetos area pagos*/
+.como__pagar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-area: CP;
+}
+
+.select__pago{
+    grid-area: SP;
+    font-size: 15px;
+}
+
+.division0{
+    margin: 5px;
+    grid-area: sep;
+}
+
+.num__card{
+    grid-area: numCrd;
+    font-size: 15px;
+}
+
+.placeholder__card{
+    grid-area: TxtNC;
+    font-size: 15px;
+}
+
+.placeholder__card input{
+    width: 80%;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+
+.txt__nom{
+    grid-area: nom;
+    font-size: 15px;
+}
+
+.placeholder__nom{
+    grid-area: txnom;
+    font-size: 15px;
+}
+
+.placeholder__nom input{
+    width: 80%;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+
+.fecha__txt{
+    grid-area: fh;
+    font-size: 15px;
+}
+
+.placeholder__fech{
+    grid-area: phfh;
+    font-size: 15px;
+}
+
+.cod__txt{
+    grid-area: cod;
+    font-size: 15px;
+}
+
+.placeholder__cod{
+    grid-area: phcod;
+    font-size: 15px;
+}
+
+.placeholder__cod input{
+    width: 20%;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+
+
+.tipo__txt{
+    grid-area: tipocc;
+    font-size: 15px;
+}
+
+.Num__cc{
+    grid-area: numcc;
+    font-size: 15px;
+}
+
+.Num__cc input{
+    width: 80%;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+
+.select__cc{
+    grid-area: stcc;
+    font-size: 15px;
+}
+
+.placeholder__numeroCC{
+    grid-area: phcc;
+    font-size: 15px;
+}
+
+.placeholder__numeroCC input{
+    width: 80%;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+
+.tipo__afiliado{
+    grid-area: tpa;
+    font-size: 15px;
+}
+
+.afiliado{
+    grid-area: af;
+    font-size: 15px;
+}
+
+.valor{
+    grid-area: vlr;
+    font-size: 15px;
+}
+
+.precio{
+    grid-area: prc;
+    font-size: 15px;
+}
+
+.btn__pagar{
+    grid-area: btn;
+}
+
+.fecha{
+    grid-area: fh;
+}
+
+.placeholder__fecha{
+    grid-area: phfh;
+}
+
+.container__servicios{
+    margin: 2px 2px;
+    background-color: #11A6BF  ;
+    border-radius: 4px;
+    display: grid;
+    padding: 1rem;
+}
+
+.container__redes{
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    
+}
+
+/*objetos servicios*/
+
+
+
+/*objetos en main 2*/
+
+.division3 {
+    margin: 0px 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    grid-area: sep3;
+    
+}
+
+.agradecimiento{
+    grid-area: ty;
+    justify-self: center;
+    margin: 20px;
+}
+
+.img__listo{
+    width: 10%;
+    height: 10%;
+    margin-left: 44.9%;
+}
+
+.listoimg{
+    grid-area: imglst;
+    
+}
+
+
+
+.more{
+    grid-area: txt;
+    justify-self: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.btnlst{
+    grid-area: btnlst;
+    justify-self: center;
+    margin-bottom: 100px;
+}
+

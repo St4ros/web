@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head class="perfil">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuracion de perfil</title>
+    <link rel="shortcut icon" href="./images/faviconx16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/estilo_perfil.css">
+    <script src="https://kit.fontawesome.com/a5535e0c29.js" crossorigin="anonymous"></script>
+    <script src="../Bd/DataBase.js"></script>
+    <script src="js/pagos.js"></script>
+    
+    
+</head>
+
+
+<body>
+    <section class="seccion__perfil__usuario">
+        <div class="perfil__usuario__header">
+            <div class="perfil__usuario__portada">
+                <a href="../../afiliado.html"><img src="./images/logo.png" class="logo__img"></a>
+            </div>
+        </div>
+        <div class="perfil__usuario__body">
+            <div class="perfil__usuario__bio">
+                <h3 class="titulo" id="nombredeusuario"></h3>
+                <p class="texto">Afiliado</p>
+            </div>
+        </div>
+        <div class="perfil__usuario__footer">
+            <ul class="lista__datos">
+                <li id="datafiliado"><i class="fa-solid fa-address-card" ></i></li>
+                <li id="correoafiliado"><i class="fa-solid fa-envelope" ></i></li>
+                <li><i class="fa-solid fa-lock"></i> Contraseña:****</li>
+            </ul>
+            <div class="perfil__usuario__boton__editar">
+                <button class="btn-18" id="btn-editar">Editar</button>
+            </div>
+           
+        </div>
+        <div class="perfil__usuario__boton__cargos">
+            <a href="historial_cargos.html"><button class="btn-18" id="btn-cargos">Historial de cargos</button></a>
+            <button class="btn-18" onclick="eliminaarusuario()" id="btn-eliminar-perfil">Eliminar perfil</button>
+
+        </div>
+    </section>
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#" id="btn_cerrar_popup" class="btn_cerrar_popup"><i class="fa-solid fa-xmark"></i></a>
+            <h3>editar información</h3>
+            <form>
+                <div class="contenedor_inputs">
+                    <input type="text" placeholder="Nombre" id="cambio__nombre">
+                    <input type="text" placeholder="Apellido" id="cambio__Apellido">
+                    <input type="date" placeholder="Fecha" id="cambio__fecha">
+                    <input type="password" placeholder="Contraseña" id="cambio__contraseña">
+                    <input type="password" placeholder="Confirmar contraseña" id="cambio__confirmar__contraseña">
+                </div>
+            </form>
+            <button class="btn-18" onclick="change()" id="btn-editar-cerrar">Editar</button>
+        </div>
+    </div>
+    <script src="js/perfil.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>

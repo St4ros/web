@@ -1,0 +1,109 @@
+:root {
+    --color-dark: #11A6BF;
+    --color-dark-x: #ffffff;
+    --color-dark-xx: #32cd32;
+    --color-light: #ffffff;
+    --color-grey: #11A6BF;
+    
+    
+
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+    font-weight: 100;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    letter-spacing: .05rem;
+}
+
+.bg-light {
+    background-color: var(--color-light)!important;
+}
+
+.bg-dark {
+    background-color: var(--color-light)!important;
+}
+
+.p-6 {
+    padding: 4rem 7rem;
+}
+
+.contact-box {
+    padding: 3rem;
+}
+
+.btn {
+    font-weight: 40;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    min-width: 10rem;
+}
+
+.btn-outline-dark {
+    border: 2px solid var( --color-dark-xx);
+    margin: 15px;
+    height: 40px;
+    width: 280px;
+    left: 110px ;
+    top: 1200px;
+}
+
+
+.form-control {
+    background-color: var(--color-dark-xx);
+    border: 2px solid var(--color-dark-xx);
+    border-radius: .2rem;
+    padding: 1.5rem 1rem;
+}
+
+.register-bg {
+    background-image: url('imagenes/pu2-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    min-height: 100vh;
+}
+
+.testiomonial {
+    bottom: 10px
+}
+
+@media (max-width: 575.98px) {
+    .p-6 {
+        padding: 2rem;
+    }
+
+    .contact-box {
+        padding: 0;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .register-bg {
+        min-height: 50vh;
+    }
+}
+.boton3{
+    color: aliceblue;
+    margin: 15px;
+    height: 60px;
+    width: 280px;
+    left: 110px ;
+    position: absolute;
+    top: 900px;
+    font-family: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap';
+    background-color: rgb(13, 123, 234)
+    
+    
+   
+}
+
+
+
+

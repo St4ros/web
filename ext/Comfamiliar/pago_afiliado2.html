@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMFAM</title>
+    <link rel="shortcut icon" href="./images/faviconx16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <script src="../Bd/DataBase.js"></script>
+    <script src="js/pagos.js"></script>
+</head>
+<body onload = "iniciar()">
+    <header class="hero">
+        <section class="hero__container container">
+        
+        
+            <div class="pago__text">
+                <div class="titulo__pago">
+                    <h2>Realiza tu pago</h2>
+                    <br>
+                </div>
+                
+            </div>
+            <figure class="logo__picture">
+                <a href="../../afiliado.html"><img src="./images/logo.png" class="logo__img"></a>
+            </figure>
+        </section>
+    </header>
+    <main class="container__main">
+        <div class="container__pago">
+            <div class="como__pagar">
+                <h5>¿como quiere pagar?</h5>
+            </div> 
+
+           <div class="select__pago">
+                <select name="forma__pago" id="fp_css">
+                    <option value="Tarjeta">Tarjeta credito/debito</option>
+                    <option value="pse">PSE</option>
+                    <option value="efecty">Efecty</option>
+                </select>
+           </div>
+
+           <div class="division0">
+                <hr>
+           </div>
+
+           <div class="num__card">
+                <h5>Numero de tarjeta</h5>
+           </div>
+
+           <div class="placeholder__card">
+                <input id="numcard" type="text" placeholder="XXXX XXXX XXXX XXXX">
+           </div>
+
+           <div class="txt__nom">
+                <h5>Nombre y Apellido</h5>
+           </div>
+
+           <div class="placeholder__nom">
+                <input id="nomcompl" type="text" placeholder="Jane Doe">
+           </div>
+
+           <div class="cod__txt">
+                <h5>Cod. seguridad</h5>
+           </div>
+
+           <div class="placeholder__cod">
+                <input id="cod" type="text" placeholder="XXX">
+           </div>
+
+           <div class="tipo__txt">
+                <div class="letras">
+                 <h5>Tipo</h5>
+                </div>
+            </div>
+
+           <div class="Num__cc">
+                <h5>Numero</h5>
+           </div>
+
+           <div class="select__cc">
+                <select name="tipo__identidad" id="TIcss">
+                    <option value="cc">CC</option>
+                    <option value="extrangero">CE</option>
+                </select>
+           </div>
+
+           <div class="placeholder__numeroCC">
+                <input id="numcc" type="text" placeholder="">
+           </div>
+
+           <div class="tipo__afiliado">
+                <h5>Tipo de afiliación:</h5>
+           </div>
+
+           <div class="afiliado">
+                <h5>Afiliado</h5>
+           </div>
+
+           <div class="valor">
+                <h5>Valor a pagar:</h5>
+           </div>
+
+           <div class="precio">
+                <h5>$2.700</h5>
+           </div>
+
+           <div class="btn__pagar">
+                <td><input type="button" value="REALIZAR PAGO" onclick="validar4()"></td>
+           </div>
+
+           <div class="fecha">
+                <h5>Fecha de expiración</h5>
+           </div>
+
+           <div class="placeholder__fecha">
+                <input id="fhid" type="month">
+            </div>
+
+        </div>
+        <div class="container__servicios">
+
+            <div class="info__serv">
+                <h2>Información del servicio</h2>
+            </div>
+
+            <div class="nom__serv">
+                <h6>Carros chocones</h6>
+            </div>
+
+            <div class="division1">
+                <hr>
+            </div> 
+
+            <div class="precio__txt">
+                <div class="letras">
+                    <h5>precio</h5>
+                </div>
+            </div>
+
+            <div class="precio__num">
+                <h1>$10.000</h1>
+            </div>
+
+            <div class="fec__disp">
+                <a href="#">
+                    <p>consulte aqui</p>
+                    las fechas disponibles
+                </a>
+            </div>
+
+            <div class="precio__afiliado">
+                <h5>precio para afiliado</h5>
+            </div>
+
+            <div class="PrecioA__num">
+                <h1>$2.700</h1>
+            </div>
+
+            <div class="divisor2">
+                <hr>
+            </div>
+
+            <div class="direccion">
+                <h5><p>encuéntranos en el </p><p>centro recreacional </p>un sol para todos</h5>
+            </div>
+
+            <div class="container__redes">
+                <div class="icon__twitter">
+                    <figure class="redes__picture">
+                        <a href="https://acortar.link/EbsVQC" target="_blank" ><img src="./images/iconoTWT.png" class="redes__img"></a>
+                    </figure>
+                </div>
+
+                <div class="icon__instagram">
+                    <figure class="redes__picture">
+                        <a href="https://acortar.link/LSgNQ1" target="_blank" ><img src="./images/iconoING.png" class="redes__img" > </a>
+                    </figure>
+                </div>
+
+                <div class="icon__facebook">
+                    <figure class="redes__picture">
+                        <a href="https://acortar.link/M7AUhP" target="_blank" ><img src="./images/iconoFc.png" class="redes__img"></a>
+                    </figure>
+                </div>
+                
+            </div>
+
+        </div>
+    </main>
+   
+</body>
+</html>

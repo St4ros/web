@@ -1,0 +1,120 @@
+
+body{
+margin: 0;
+padding: 0;
+background-color: #11A6BF;
+box-sizing: border-box;
+background-position: left;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap';
+}
+.container{
+    top: 10%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+   
+    position: absolute;
+    left: 650px;
+    height: 530px;
+}
+.img2{
+    background-image: url("../img/COMFAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+.container_form{
+    background-color: #32cd32;
+    padding: 50px 60px;
+   
+    border-radius: 15px;
+    
+}
+img{
+    width: 330px;
+    height: 150px;
+}
+h2{
+    text-align: initial;
+   top: 180px; 
+}
+.h1{
+    position: absolute;
+    top: 60px;
+    left: 140px;
+}
+.h3{
+    position: absolute;
+    top: 110px;
+    left: 140px ;
+    font-size: 15px;
+    
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+    
+}
+.boton{
+    margin: 15px;
+    background-color: blue;
+    color: aliceblue;
+    height: 40px;
+    width: 332px;
+    left: 44px ;
+    position: absolute;
+    top: 410px;
+    font-size: 15px;
+    font-family: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap';
+}
+.boton2{
+    color: aliceblue;
+    margin: 15px;
+    height: 40px;
+    width: 332px;
+    left: 44px ;
+    position: absolute;
+    top: 350px;
+    font-size:15px;
+    font-family: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap';
+    background-color: blue
+    
+}
+.boton3{
+    margin: 15px;
+    height: 40px;
+    width: 130px;
+    background: transparent;
+    border-style: solid;
+    position: absolute;
+    top: 150px;
+    left: 125px ;
+    font-size: 15px;
+}
+label:hover{
+    background-color: #b8b8b8b8;
+}
+.boton:active{
+    background-color: aliceblue;
+}
+.boton2:active{
+    background-color: aliceblue;
+}
+.boton3:active{
+    background-color: aliceblue;
+}

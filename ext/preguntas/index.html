@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="style.css" rel="stylesheet">
+
+<body>
+    <h2 style="color:rgb(255, 255, 255); text-align:center">Preguntas frecuentes </h2>
+    <div class="layout">
+        <div class="imagen "></div>
+
+
+        <div class="accordion">
+            <div class="accordion__question">
+                <p>¿Como puedo registrarme?</p>
+
+            </div>
+            <div class="accordion__answer">
+                <p> en la parte superior derecha se encuentra un boton
+                    con el nombre resgistrar el cual al presionarlo
+                    , te dirije al apartado de registro donde podras
+                    ingresar tus datos </p>
+
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion__question">
+                <p>¿Como puedo inciar sesion iniciar sesión ?</p>
+
+            </div>
+            <div class="accordion__answer">
+                <p>
+                    Despues de estar seguro que estas registrado en la
+                    plataforma, dirijete a la pagina principar y en la parte
+                    superior derecha se encuentra el bonton de incio de sesión
+                    donde podras ingresar tu correo y contraseñas
+                </p>
+
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion__question">
+                <p>¿Tienen descuentos para las personas afiliadas?</p>
+
+            </div>
+            <div class="accordion__answer">
+                <p>
+                    Las personas afiliadas con nosotros tinen ciertos beneficios, entre ellos
+                    estan los descuentos a distintas areas disponibles en comfam
+                </p>
+
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion__question">
+                <p>¿Se puden realizar reservas ?</p>
+
+            </div>
+            <div class="accordion__answer">
+                <p>
+                    Si, al ingresar a nuestra plataforma, puedes realizar las reservas a nuestros servicios?
+                </p>
+
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion__question">
+                <p>¿Aceptan pagos con tarjetas ?</p>
+
+            </div>
+            <div class="accordion__answer">
+                <p>
+                    Si, se acepta pagos con tarjeta y todo tipo de tarjeta.
+                </p>
+
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion__question">
+                <p>¿Que requisitos tiene para afiliarse ?</p>
+
+            </div>
+            <div class="accordion__answer">
+                <p>
+                    Solo ser de nacionalidad colombiana
+                </p>
+
+            </div>
+        </div>
+        <form action="https://formsubmit.co/sebas_mr2000@hotmail.com" method="POST">
+            <div>
+                <label class="text1">Ingresa una sugerencia: </label>
+                <p><textarea name="comentario" rows="5" cols="50">   </textarea></p>
+            </div>
+            <div>
+                <input type="submit" value="enviar">
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://st4ros.github.io/web/ext/preguntas/index.html">
+        </form>
+
+    </div>
+
+    <script>
+        let answers = document.querySelectorAll(" .accordion"); answers.forEach((event)=> {
+            event.addEventListener('click', () => {
+            if (event.classList.contains("active")) {
+            event.classList.remove("active");
+            }
+            else {
+            event.classList.add("active");
+            }
+            })
+            })
+            </script>
+
+</body>
+
+</html>
